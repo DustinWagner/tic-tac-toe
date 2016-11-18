@@ -13,3 +13,25 @@ function redRect(){
 var canvas = document.getElementById("game-borad")
 canvas.appendChild(circle)
 }
+function orangeRect(){
+  var circle = document.createElementNS(namespace,"circle")
+  circle.setAtrribute("cx",70)
+  circle.setAtrribute("cy",30)
+  circle.setAtrribute("r",15)
+  circle.setAtrribute("fill","black")
+  var canvas = document.getElementById("game-borad")
+  canvas.appendChild(circle)
+}
+function yellowRect() {
+var circle = document.createElementNS(namespace,"circle")
+circle.setAtrribute("cx",135)
+circle.setAtrribute("cy",30)
+circle.setAtrribute("r",15)
+circle.setAtrribute("fill","black")
+var canvas = document.getElementById("game-borad")
+canvas.appendChild(circle)
+}
+function greenRect() {
+var circle = document.createElementNS(namespace,"circle")
+circle.cetAtrribute("cx",5)  
+}
