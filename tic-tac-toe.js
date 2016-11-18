@@ -6,10 +6,10 @@ function makeshape() {
 }
 function redRect(){
   var circle = document.createElementNS(namespace,"circle")
-  circle.setAtrribute("cx",5)
-  circle.setAtrribute("cy",30)
-  circle.setAtrribute("r",15)
-  circle.setAtrribute("fill","black")
+  circle.setAttribute("cx",5)
+  circle.setAttribute("cy",30)
+  circle.setAttribute("r",15)
+  circle.setAttribute("fill","black")
 var canvas = document.getElementById("game-borad")
 canvas.appendChild(circle)
 }
@@ -33,5 +33,9 @@ canvas.appendChild(circle)
 }
 function greenRect() {
 var circle = document.createElementNS(namespace,"circle")
-circle.cetAtrribute("cx",5)  
+circle.setAtrribute("cx",5)
+circle.setAtrribute("cy",95)
+circle.setAtrribute("r",15)
+circle.setAtrribute("fill","black")
+var canvas = document.getElementById()
 }
