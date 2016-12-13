@@ -19,7 +19,7 @@ function orangeRect(){
   circle.setAtrribute("cy",30)
   circle.setAtrribute("r",15)
   circle.setAtrribute("fill","black")
-  var canvas = document.getElementById("game-borad")
+  var canvas = document.getElementById("game-board")
   canvas.appendChild(circle)
 }
 function yellowRect() {
@@ -28,7 +28,7 @@ circle.setAtrribute("cx",135)
 circle.setAtrribute("cy",30)
 circle.setAtrribute("r",15)
 circle.setAtrribute("fill","black")
-var canvas = document.getElementById("game-borad")
+var canvas = document.getElementById("game-board")
 canvas.appendChild(circle)
 }
 function greenRect() {
@@ -37,7 +37,7 @@ circle.setAtrribute("cx",5)
 circle.setAtrribute("cy",95)
 circle.setAtrribute("r",15)
 circle.setAtrribute("fill","black")
-var canvas = document.getElementById("game-borad")
+var canvas = document.getElementById("game-board")
 canvas.appendChild(circle)
 }
 function blueRect() {
@@ -46,7 +46,7 @@ circle.setAtrribute("cx",70)
 circle.setAtrribute("cy",95)
 circle.setAtrribute("r",15)
 circle.setAtrribute("fill","black")
-var canvas = document.getElementById("game-borad")
+var canvas = document.getElementById("game-board")
 canvas.appendChild(circle)
 }
 function purpleRect() {
@@ -55,7 +55,7 @@ circle.setAtrribute("cx",135)
 circle.setAtrribute("cy",95)
 circle.setAtrribute("r",15)
 circle.setAtrribute("fill","black")
-var canvas = document.getElementById("game-borad")
+var canvas = document.getElementById("game-board")
 canvas.appendChild(circle)
 }
 function pinkRect() {
@@ -64,7 +64,7 @@ circle.setAtrribute("cx",5)
 circle.setAtrribute("cy",95)
 circle.setAtrribute("r",15)
 circle.setAtrribute("fill","black")
-var canvas = document.getElementById("game-borad")
+var canvas = document.getElementById("game-board")
 canvas.appendChild(circle)
 }
 function fuchsiaRect() {
@@ -73,7 +73,7 @@ circle.setAtrribute("cx",5)
 circle.setAtrribute("cy",95)
 circle.setAtrribute("r",15)
 circle.setAtrribute("fill","black")
-var canvas = document.getElementById("game-borad")
+var canvas = document.getElementById("game-board")
 canvas.appendChild(circle)
 }
 function brownRect() {
@@ -82,6 +82,6 @@ circle.setAtrribute("cx",5)
 circle.setAtrribute("cy",95)
 circle.setAtrribute("r",15)
 circle.setAtrribute("fill","black")
-var canvas = document.getElementById("game-borad")
+var canvas = document.getElementById("game-board")
 canvas.appendChild(circle)
 }
